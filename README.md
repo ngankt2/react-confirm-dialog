@@ -3,6 +3,7 @@ step1: download file js and css to your project
 step2: include css file
 step2: call ConfirmDialog from js file
 exam: 
+```javascript
 import ConfirmDialog from '../../ConfirmDialog';
  ConfirmDialog({
                 title: "This menu is disabled",
@@ -12,3 +13,4 @@ import ConfirmDialog from '../../ConfirmDialog';
                 okText: "What's this?",
                 cancelText: "Ok",
             });
+            ```
