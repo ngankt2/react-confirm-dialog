@@ -10,8 +10,9 @@ function ce(tag, clas, txt) {
     if (typeof txt === 'undefined' || txt === null) {
         return ele;
     }
-    var tn = document.createTextNode(txt);
-    ele.appendChild(tn);
+    //var tn = document.createTextNode(txt);
+    //ele.appendChild(tn);
+    ele.innerHTML= txt;
     return ele;
 }
 let KEY_ESC = 27;
