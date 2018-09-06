@@ -8,8 +8,8 @@ import ConfirmDialog from '../../ConfirmDialog';
  ConfirmDialog({
                 title: "This menu is disabled",
                 subtitle: "Bạn cần chọn dự án để làm việc!",
-                onOk: null,
-                onCancel: null,
+                onOk: function(){alert('clicked OK')},
+                onCancel: function(){alert('clicked Cancel')},
                 okText: "What's this?",
                 cancelText: "Ok",
             });
